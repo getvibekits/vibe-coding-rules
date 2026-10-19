@@ -1,0 +1,13 @@
+---
+globs: **/*.gs, **/*.js
+alwaysApply: false
+---
+
+# Project rules: Google Sheets automation (Apps Script)
+
+- Develop and test against a copy of the sheet. Ask before running anything on the real one.
+- Read and write in batches (getValues / setValues on whole ranges), not cell by cell in a loop.
+- Look up columns by header name, not by fixed column letters.
+- Keep runs short and process big sheets in chunks. Tell me if a job might exceed Apps Script's execution time limit.
+- Ask before adding triggers (time-driven or on-edit) and explain what each one does.
+- Request only the OAuth scopes the script needs.

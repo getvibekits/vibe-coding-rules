@@ -1,0 +1,13 @@
+---
+globs: src/**/*.astro, src/**/*.md, src/**/*.css
+alwaysApply: false
+---
+
+# Project rules: Portfolio site
+
+- Each project is a Markdown file in one content folder. Pages read from those files. No project text hard-coded in components.
+- Static output only. No server, database, or login.
+- Images go in one folder with descriptive file names and alt text.
+- Keep the design to one font pair and a small color palette defined in one CSS file.
+- Every page needs a unique <title> and meta description.
+- Ask before adding a CSS framework, UI library, or animation library.

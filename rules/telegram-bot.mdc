@@ -1,0 +1,13 @@
+---
+globs: **/*.py
+alwaysApply: false
+---
+
+# Project rules: Telegram bot
+
+- The bot token from @BotFather lives only in .env as TELEGRAM_BOT_TOKEN. Never print or commit it.
+- Use python-telegram-bot's async API (v20 or later). Don't use the old v13 Updater/Dispatcher style.
+- Use long polling (run_polling) for v1. Ask before switching to webhooks.
+- One handler function per command. Register all handlers in one place in bot.py.
+- Pin library versions in requirements.txt.
+- Don't store user messages unless I ask. If we store anything, tell me what and where.

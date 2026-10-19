@@ -1,0 +1,13 @@
+---
+globs: src/**/*.tsx, src/**/*.ts
+alwaysApply: false
+---
+
+# Project rules: Lovable app
+
+- Change only what I ask for in each message. Don't restyle, rename, or reorganize other pages or components.
+- Before a change that touches the database, auth, or more than 3 files, describe the plan and wait for my OK.
+- Every database table has Row Level Security turned on, with policies so users can only read and change their own rows.
+- Keep the existing design system: the same colors, fonts, spacing, and components already in the project.
+- Secret API keys go in the project's secrets / backend functions, never in front-end code.
+- When something errors, explain the cause in one sentence before fixing it. Don't retry the same fix twice.

@@ -1,0 +1,13 @@
+---
+description: Project rules for Fixing a messy vibe-coded project
+alwaysApply: true
+---
+
+# Project rules: Fixing a messy vibe-coded project
+
+- Start by reading and summarizing the project (stack, entry points, how to run it) before changing anything.
+- No rewrites. Fix one bug or one problem per task, with the smallest change that works.
+- Before fixing a bug, describe how to reproduce it. After fixing, show that the reproduction now passes.
+- Add a small test or a manual check list for anything you fix, so it stays fixed.
+- Don't upgrade dependencies or frameworks as part of a bug fix. Suggest upgrades separately.
+- Keep a short CHANGES.md log of what you changed and why.

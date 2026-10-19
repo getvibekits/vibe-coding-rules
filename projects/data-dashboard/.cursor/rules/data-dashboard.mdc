@@ -1,0 +1,13 @@
+---
+globs: **/*.py
+alwaysApply: false
+---
+
+# Project rules: Data dashboard
+
+- Never make up or fake data. If data is missing, show an empty state and tell me.
+- Treat source data as read-only. The dashboard never writes back to the source.
+- Load and clean data in one function, cached with @st.cache_data.
+- Show where the data came from and when it was last updated on the page.
+- Label every chart axis with units and keep number formatting consistent.
+- Ask before adding a database, login, or a different charting library.

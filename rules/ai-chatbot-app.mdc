@@ -1,0 +1,13 @@
+---
+globs: **/*.ts, **/*.tsx, **/*.js, **/*.py
+alwaysApply: false
+---
+
+# Project rules: AI chatbot app
+
+- Call the LLM API only from server code. The API key never reaches the browser.
+- Keep the model name and settings in one config place. Use the exact model ID I give you. Don't invent model names.
+- Set a max output tokens value, and limit message length and requests per user.
+- Show a clear error message when the API fails or rate-limits. Never show raw error objects to users.
+- Don't log full conversations with personal data unless I ask. If we log, say where and for how long.
+- Keep the system prompt in its own file so I can edit it without touching code.

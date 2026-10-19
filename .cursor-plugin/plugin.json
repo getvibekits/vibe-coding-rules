@@ -1,0 +1,20 @@
+{
+  "name": "vibe-coding-rules",
+  "displayName": "Vibe Coding Rules",
+  "version": "1.0.0",
+  "description": "Beginner-friendly Cursor rules for 20 project types (games, bots, web apps, websites, mobile, scripts, AI agents, backends), with matching AGENTS.md and CLAUDE.md.",
+  "author": {
+    "name": "VibeKits",
+    "url": "https://getvibekits.com"
+  },
+  "homepage": "https://getvibekits.com/rules/?utm_source=cursor-directory",
+  "repository": "https://github.com/getvibekits/vibe-coding-rules",
+  "license": "MIT",
+  "keywords": [
+    "cursor-rules",
+    "agents-md",
+    "claude-md",
+    "beginners",
+    "vibe-coding"
+  ]
+}

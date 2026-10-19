@@ -1,0 +1,13 @@
+---
+globs: **/*.html, **/*.css
+alwaysApply: false
+---
+
+# Project rules: Landing page
+
+- Plain HTML and CSS unless I ask for a framework. No build step for v1.
+- One page, one goal, one main call-to-action button. Ask before adding sections.
+- Mobile first: check that the layout works at 375px wide before desktop.
+- Use real text for headings (no text baked into images), alt text on every image, and visible focus styles.
+- Signup forms post to the email provider's embed code. Don't write our own backend for signups.
+- Keep images small (compressed, sized for display) and don't add tracking scripts unless I ask.

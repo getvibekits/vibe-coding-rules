@@ -1,0 +1,13 @@
+---
+globs: **/*.py
+alwaysApply: false
+---
+
+# Project rules: API backend (FastAPI)
+
+- Every request body and response uses a Pydantic model. No raw dicts in and out.
+- Don't change the path, method, or response shape of an existing endpoint without asking. Add a new one instead.
+- Every new endpoint gets at least one pytest test. Run pytest before saying it's done.
+- Return proper HTTP status codes (400/401/403/404/422) with a short message. Never return a stack trace to the client.
+- Secrets and database URLs come from environment variables.
+- Put authentication on every endpoint that reads or changes user data. Ask if unsure which endpoints should be public.

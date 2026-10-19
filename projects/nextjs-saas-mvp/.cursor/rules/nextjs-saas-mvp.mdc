@@ -1,0 +1,13 @@
+---
+globs: app/**/*.tsx, app/**/*.ts, src/**/*.ts, src/**/*.tsx
+alwaysApply: false
+---
+
+# Project rules: Next.js SaaS MVP
+
+- Use the App Router (the app/ directory). Don't mix in the old pages/ router unless I ask.
+- Never build our own password storage or session system. Use the auth provider we chose.
+- Only variables prefixed NEXT_PUBLIC_ may be used in client components. Everything else stays server-side.
+- Payments use Stripe Checkout or Stripe-hosted pages. Prices come from the server, never from the client.
+- Run npm run build before saying a task is done.
+- Keep v1 to the core loop: sign up, do the one main thing, pay. Ask before adding settings pages, teams, or admin panels.

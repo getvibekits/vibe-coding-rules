@@ -1,0 +1,13 @@
+---
+globs: **/*.py
+alwaysApply: false
+---
+
+# Project rules: Python automation script
+
+- Every script that changes files, sends anything, or calls a paid API has a --dry-run flag that prints what it would do.
+- Never delete or overwrite files without an explicit flag. Prefer moving to a backup folder.
+- Use the standard library first. Ask before adding a dependency, and pin versions in requirements.txt.
+- Settings (paths, limits, account names) go in a config section or .env, not scattered through the code.
+- Log what happened (counts, skipped items, errors) at the end of every run.
+- Handle one failing item without stopping the whole run. Report failures at the end.

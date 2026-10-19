@@ -1,0 +1,13 @@
+---
+globs: app/**/*.tsx, components/**/*.tsx, **/*.ts
+alwaysApply: false
+---
+
+# Project rules: Mobile app (Expo)
+
+- Install packages with npx expo install, not npm install, so versions match our Expo SDK.
+- Screens live in the app/ folder (Expo Router file-based routes). One screen per file.
+- Anything in the app bundle is public, including EXPO_PUBLIC_ variables. Secret keys stay on a server.
+- Stick to packages that work in Expo Go for v1. Ask before adding anything that needs a development build.
+- Test each change on a real phone with Expo Go, and say what to tap to check it.
+- Handle loading and error states on every screen that fetches data.

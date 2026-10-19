@@ -1,0 +1,13 @@
+---
+globs: src/**/*.js, src/**/*.ts
+alwaysApply: false
+---
+
+# Project rules: Browser game (Phaser)
+
+- Keep each scene in its own file under src/scenes/ (or wherever the starter put them). Don't merge scenes.
+- Add one mechanic per task (movement, then jumping, then enemies). After each one, the game must still start and be playable.
+- Put tunable numbers (speed, gravity, spawn rate, lives) in one config object at the top of the scene or in a config file.
+- Load assets in preload() with clear keys. If an asset file is missing, use a colored rectangle placeholder and tell me.
+- Use the Phaser version that's in package.json. Don't use Phaser 2/CE examples or APIs.
+- Don't add a physics engine, state library, or framework unless I ask. Use Phaser's built-in Arcade Physics.

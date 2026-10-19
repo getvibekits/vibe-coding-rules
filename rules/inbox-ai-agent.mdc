@@ -1,0 +1,13 @@
+---
+globs: **/*.py, **/*.js, **/*.ts
+alwaysApply: false
+---
+
+# Project rules: Inbox / email AI agent
+
+- The agent may add labels and create drafts. It must never delete, archive, send, or forward email unless I add that later on purpose.
+- Ask for the narrowest Gmail OAuth scope that does the job.
+- credentials.json and token.json (or equivalents) are in .gitignore and never printed.
+- Every run supports --dry-run and --limit. Default to a small limit.
+- The classifier returns strict JSON with a fixed label list. Anything unparseable goes to a "Needs review" label.
+- Set a max number of LLM calls per run and print the count at the end.

@@ -1,0 +1,13 @@
+---
+globs: **/*.py
+alwaysApply: false
+---
+
+# Project rules: Web scraper
+
+- Check for an official API or data export first and tell me if one exists.
+- Respect robots.txt and the site's terms. Wait at least 1 second between requests and send a descriptive User-Agent.
+- Cache downloaded pages to a local folder and parse from the cache while developing.
+- Keep all CSS selectors in one place at the top of the file.
+- Use plain requests first. Ask before adding a headless browser.
+- Don't collect personal data (emails, phone numbers, profiles) unless I explicitly ask and confirm it's allowed.

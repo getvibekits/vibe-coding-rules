@@ -1,0 +1,13 @@
+---
+globs: supabase/**/*.sql, src/**/*.ts, src/**/*.tsx
+alwaysApply: false
+---
+
+# Project rules: Supabase app
+
+- Turn on Row Level Security for every table in the same migration that creates it, with explicit policies.
+- The service_role / secret key is server-only (backend, edge functions, scripts). The front end only ever uses the anon / publishable key.
+- Every schema change is a migration file. Never change the production database by hand or with ad-hoc SQL unless I ask.
+- Ask before any migration that drops or renames a column or table.
+- Storage buckets are private by default. Ask before making one public.
+- When you add a query, say which RLS policy allows it.

@@ -1,0 +1,13 @@
+---
+globs: **/*.gd, **/*.tscn, **/*.tres
+alwaysApply: false
+---
+
+# Project rules: Godot game
+
+- This is a Godot 4 project. Use Godot 4 GDScript syntax and APIs only (for example CharacterBody2D, not KinematicBody2D).
+- Prefer telling me which nodes to add in the editor. If you edit .tscn or .tres files as text, change only what's needed and tell me to reload the scene.
+- One script per node that needs behavior. Keep scripts next to their scenes.
+- Use signals for communication between nodes instead of hard-coded paths like get_node("../../Player") where possible.
+- Put tunable values in @export variables so I can change them in the Inspector.
+- The .godot/ folder is generated. Never edit it and keep it in .gitignore.

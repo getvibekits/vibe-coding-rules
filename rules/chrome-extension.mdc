@@ -1,0 +1,13 @@
+---
+globs: **/*.js, manifest.json
+alwaysApply: false
+---
+
+# Project rules: Chrome extension
+
+- Use Manifest V3 only. Background logic goes in a service worker, not a background page.
+- Request the fewest permissions possible. Explain each permission and host permission in one line before adding it.
+- All code ships inside the extension. Don't load remote scripts or use eval().
+- Content scripts must handle pages that load content dynamically (use a MutationObserver when needed).
+- Store settings with chrome.storage, not localStorage.
+- After each change, tell me exactly what to reload and which page to test on.

@@ -1,0 +1,13 @@
+---
+globs: **/*.ts, **/*.tsx, **/*.js
+alwaysApply: false
+---
+
+# Project rules: Online store (Stripe)
+
+- Use Stripe Checkout (Stripe-hosted). Never collect or store card numbers ourselves.
+- Prices and products come from the server or from Stripe, never from the browser.
+- Mark an order as paid only from a verified webhook event (check the signature), not from the success page redirect.
+- Use test-mode keys during development. Ask before anything touches live keys.
+- Handle the same webhook event arriving twice without creating two orders.
+- The secret key and webhook signing secret live in environment variables only.
