@@ -6,6 +6,8 @@ Each set gives your AI coding tool (Claude Code, Cursor, OpenAI Codex, GitHub Co
 
 Browse the full library, with an explanation of why each rule exists, at **[getvibekits.com/rules](https://getvibekits.com/rules/?utm_source=github)**, or build a custom file in the free **[rules generator](https://getvibekits.com/rules/generator/?utm_source=github)** (runs in your browser, no signup).
 
+**New:** [21 copy-paste vibe coding prompts](prompts/vibe-coding-prompts.md) for planning, building, fixing errors, security checks and deploying (pairs with the rules files below).
+
 ## Quick start
 
 1. Find your project type in the table below.
