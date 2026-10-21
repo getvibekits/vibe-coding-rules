@@ -8,6 +8,8 @@ Browse the full library, with an explanation of why each rule exists, at **[getv
 
 **New:** [21 copy-paste vibe coding prompts](prompts/vibe-coding-prompts.md) for planning, building, fixing errors, security checks and deploying (pairs with the rules files below).
 
+**New:** [7 copy-paste Claude Code skills](skills/) (`SKILL.md` files for explaining errors, adding a page, committing, reviewing changes, design rules, database safety and an SEO check).
+
 ## Quick start
 
 1. Find your project type in the table below.
