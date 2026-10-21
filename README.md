@@ -8,6 +8,8 @@ Browse the full library, with an explanation of why each rule exists, at **[getv
 
 **New:** [21 copy-paste vibe coding prompts](prompts/vibe-coding-prompts.md) for planning, building, fixing errors, security checks and deploying (pairs with the rules files below).
 
+**New:** [8 copy-paste AGENTS.md examples](agents-md/) (minimal, Next.js + TypeScript, Python, TypeScript library, Spring Boot, monorepo, global Codex file and a Codex override).
+
 **New:** [7 copy-paste Claude Code skills](skills/) (`SKILL.md` files for explaining errors, adding a page, committing, reviewing changes, design rules, database safety and an SEO check).
 
 ## Quick start
