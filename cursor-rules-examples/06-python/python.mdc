@@ -1,0 +1,8 @@
+---
+globs: **/*.py
+alwaysApply: false
+---
+
+- Use the project's virtual environment (.venv). Add new packages to requirements.txt and tell me.
+- Scripts that move, rename or delete files must support --dry-run and default to it.
+- Read settings from environment variables, never hardcode keys.

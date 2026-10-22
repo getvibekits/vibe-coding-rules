@@ -1,0 +1,10 @@
+---
+description: How to work in this project
+alwaysApply: true
+---
+
+- Do one task per request. If I ask for several, list them and do only the first.
+- Before writing code, give a 3-line plan: what changes, which files, how I'll test it.
+- Make the smallest change that works. Don't refactor code I didn't mention.
+- Ask before adding a dependency, deleting files or touching more than 3 files.
+- Never say something works unless you ran it.

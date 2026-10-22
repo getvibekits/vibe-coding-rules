@@ -1,0 +1,8 @@
+---
+globs: app/api/**/*.ts, src/api/**/*.ts
+alwaysApply: false
+---
+
+- Validate every request body with zod before using it.
+- Check the logged-in user on the server in every route. Never trust an id sent by the browser.
+- Return errors as { error: string } with the right status code. Never return stack traces.

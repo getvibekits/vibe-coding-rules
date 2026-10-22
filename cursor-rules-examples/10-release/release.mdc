@@ -1,0 +1,10 @@
+---
+alwaysApply: false
+---
+
+Before I launch, check and report (don't fix yet):
+1. Every table has row-level security.
+2. No secrets in front-end code or in git history.
+3. Every API route checks the user.
+4. Prices come from the server.
+5. Error pages don't show stack traces.

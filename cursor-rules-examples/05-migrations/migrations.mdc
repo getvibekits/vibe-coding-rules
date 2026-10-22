@@ -1,0 +1,8 @@
+---
+globs: supabase/**/*.sql
+alwaysApply: false
+---
+
+- Turn on Row Level Security for every new table, with explicit policies.
+- Ask before dropping or renaming a column or table, and say what data would be lost.
+- One change per migration file, with a clear name.

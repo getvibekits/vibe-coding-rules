@@ -6,6 +6,8 @@ Each set gives your AI coding tool (Claude Code, Cursor, OpenAI Codex, GitHub Co
 
 Browse the full library, with an explanation of why each rule exists, at **[getvibekits.com/rules](https://getvibekits.com/rules/?utm_source=github)**, or build a custom file in the free **[rules generator](https://getvibekits.com/rules/generator/?utm_source=github)** (runs in your browser, no signup).
 
+**New:** [10 copy-paste Cursor rules examples](cursor-rules-examples/) (`.mdc` files covering all four rule types: always on, file globs, apply intelligently and manual, including API, Supabase migration, secrets and pre-launch checklist rules).
+
 **New:** [21 copy-paste vibe coding prompts](prompts/vibe-coding-prompts.md) for planning, building, fixing errors, security checks and deploying (pairs with the rules files below).
 
 **New:** [7 copy-paste copilot-instructions.md examples](copilot-instructions/) for GitHub Copilot (Next.js, Python, landing page, plus path-specific files for tests, database migrations, React components and code review).

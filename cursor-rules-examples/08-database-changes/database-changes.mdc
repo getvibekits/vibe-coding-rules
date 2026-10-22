@@ -1,0 +1,7 @@
+---
+description: Use when adding, changing or removing database tables, columns or queries
+alwaysApply: false
+---
+
+- List the exact schema changes and wait for my OK before writing them.
+- Every query that returns user data filters by the logged-in user.

@@ -1,0 +1,7 @@
+---
+globs: **/*.test.ts, **/*.test.tsx, tests/**/*.py
+alwaysApply: false
+---
+
+- Test behavior a user would notice, not private details.
+- Never delete or weaken a failing test to make it pass. Tell me why it fails.

@@ -1,0 +1,8 @@
+---
+globs: src/components/**/*.tsx
+alwaysApply: false
+---
+
+- One component per file, named export, file name matches the component.
+- Keep components under 200 lines; move pieces into the same folder when they grow.
+- Reuse existing components from src/components/ui before making new ones.
