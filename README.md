@@ -6,15 +6,16 @@ Each set gives your AI coding tool (Claude Code, Cursor, OpenAI Codex, GitHub Co
 
 Browse the full library, with an explanation of why each rule exists, at **[getvibekits.com/rules](https://getvibekits.com/rules/?utm_source=github)**, or build a custom file in the free **[rules generator](https://getvibekits.com/rules/generator/?utm_source=github)** (runs in your browser, no signup).
 
-**New:** [10 copy-paste Cursor rules examples](cursor-rules-examples/) (`.mdc` files covering all four rule types: always on, file globs, apply intelligently and manual, including API, Supabase migration, secrets and pre-launch checklist rules).
+## What's inside
 
-**New:** [21 copy-paste vibe coding prompts](prompts/vibe-coding-prompts.md) for planning, building, fixing errors, security checks and deploying (pairs with the rules files below).
-
-**New:** [7 copy-paste copilot-instructions.md examples](copilot-instructions/) for GitHub Copilot (Next.js, Python, landing page, plus path-specific files for tests, database migrations, React components and code review).
-
-**New:** [8 copy-paste AGENTS.md examples](agents-md/) (minimal, Next.js + TypeScript, Python, TypeScript library, Spring Boot, monorepo, global Codex file and a Codex override).
-
-**New:** [7 copy-paste Claude Code skills](skills/) (`SKILL.md` files for explaining errors, adding a page, committing, reviewing changes, design rules, database safety and an SEO check).
+| Format | Folder | What you get |
+|---|---|---|
+| `AGENTS.md` + `CLAUDE.md` + `.cursor/rules` | [projects/](#project-types) | Full rule sets for 20 beginner project types (table below) |
+| Cursor rules (`.mdc`) | [cursor-rules-examples/](cursor-rules-examples/) | 10 examples covering all four rule types: always on, file globs, apply intelligently and manual |
+| `AGENTS.md` | [agents-md/](agents-md/) | 8 examples: minimal, Next.js + TypeScript, Python, TypeScript library, Spring Boot, monorepo, global Codex file, Codex override |
+| `copilot-instructions.md` | [copilot-instructions/](copilot-instructions/) | 7 examples for GitHub Copilot, including path-specific `.instructions.md` files with `applyTo` |
+| Claude Code skills (`SKILL.md`) | [skills/](skills/) | 7 skills: explain an error, add a page, commit, review changes, design rules, database safety, SEO check |
+| Prompts | [prompts/vibe-coding-prompts.md](prompts/vibe-coding-prompts.md) | 21 copy-paste prompts for planning, building, fixing errors, security checks and deploying |
 
 ## Quick start
 
