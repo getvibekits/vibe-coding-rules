@@ -28,6 +28,7 @@ cp agents-md/01-minimal/AGENTS.md ./AGENTS.md
 ## Tips
 
 - Using Claude Code too? Put `@AGENTS.md` at the top of your `CLAUDE.md` instead of copying the rules twice. See [AGENTS.md vs CLAUDE.md](https://getvibekits.com/rules/agents-md-vs-claude-md/?utm_source=github&utm_medium=agents-md).
+- Claude Code ignoring your AGENTS.md? If the project has a `CLAUDE.md` or `CLAUDE.local.md`, Claude reads that instead. Fix it by adding `@AGENTS.md` to the CLAUDE.md, or type `/config` and set **Project instructions** to `claude-md-and-agents-md` so it reads both. Run `/memory` to check your AGENTS.md is in the list. Older versions need an update first (`claude --version`). Full setting table and checklist: [AGENTS.md not loading in Claude Code](https://getvibekits.com/rules/agents-md-vs-claude-md/?utm_source=github&utm_medium=agents-md).
 - Keep it short, important rules first. Codex reads up to 32 KiB by default; Devin automatically includes only the first 16 KiB of each file.
 - Long step-by-step jobs belong in skills, not AGENTS.md. This repo has [7 Claude Code skills](../skills/).
 - Never put keys or passwords in it. It's a normal file in your repo.

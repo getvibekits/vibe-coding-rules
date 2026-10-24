@@ -16,6 +16,7 @@ Browse the full library, with an explanation of why each rule exists, at **[getv
 | `copilot-instructions.md` | [copilot-instructions/](copilot-instructions/) | 7 examples for GitHub Copilot, including path-specific `.instructions.md` files with `applyTo` |
 | Claude Code skills (`SKILL.md`) | [skills/](skills/) | 7 skills: explain an error, add a page, commit, review changes, design rules, database safety, SEO check |
 | Prompts | [prompts/vibe-coding-prompts.md](prompts/vibe-coding-prompts.md) | 21 copy-paste prompts for planning, building, fixing errors, security checks and deploying |
+| Plan mode prompts | [prompts/plan-mode-prompts.md](prompts/plan-mode-prompts.md) | How to turn on plan mode in 6 tools, plus 6 copy-paste plan prompts |
 
 ## Quick start
 
