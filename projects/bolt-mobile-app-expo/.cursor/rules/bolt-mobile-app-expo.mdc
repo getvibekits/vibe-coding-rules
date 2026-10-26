@@ -1,0 +1,13 @@
+---
+globs: app/**/*.tsx, components/**/*.tsx
+alwaysApply: false
+---
+
+# Project rules: Bolt mobile app (Expo)
+
+- This is a mobile app built with Expo. Design for phone screens first, and keep it working on both iPhone and Android.
+- Use packages that work with Expo. Ask before adding anything that needs custom native code.
+- Anything inside the app is public. Secret keys stay in server functions, never in the app code.
+- After each change, tell me what to tap on my phone to check it.
+- Every screen that loads data shows a loading state, an empty state, and an error message.
+- Ask before changing anything to do with publishing: app name, icons, bundle IDs, or store listings.

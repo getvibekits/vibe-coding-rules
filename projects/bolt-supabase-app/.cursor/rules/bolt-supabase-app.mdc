@@ -1,0 +1,13 @@
+---
+globs: supabase/**/*.sql, src/**/*.ts, src/**/*.tsx
+alwaysApply: false
+---
+
+# Project rules: Bolt + Supabase app
+
+- Every table gets Row Level Security with explicit policies when it's created. Users only see and change their own rows unless I say otherwise.
+- Never switch or reconnect this project's database without asking first. Tell me exactly what data could be lost.
+- The Supabase service_role / secret key is only used in edge functions, never in front-end code.
+- Payments and calls to other services run in edge functions, with their keys stored as secrets.
+- Before any schema change, list the tables and columns to add, change, or drop, and wait for my OK.
+- Sign-in uses Supabase Auth. Never store passwords in our own tables.

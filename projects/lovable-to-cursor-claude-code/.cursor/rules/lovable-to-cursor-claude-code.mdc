@@ -1,0 +1,13 @@
+---
+globs: src/**/*.ts, src/**/*.tsx
+alwaysApply: false
+---
+
+# Project rules: Lovable + Cursor / Claude Code (GitHub sync)
+
+- Pull before starting work and push small commits often. Lovable commits to the same branch.
+- Work on the branch Lovable syncs, or merge into it when done. Changes on other branches won't appear in Lovable until merged.
+- Don't rename, move, or restructure the folders and config files Lovable created unless I ask.
+- Don't change database migrations or backend settings locally while I'm also changing the backend in Lovable. One place per change.
+- Keep this AGENTS.md and Lovable's Project Knowledge saying the same thing. If you change one, remind me to update the other.
+- Run npm run build and make sure it passes before every push.

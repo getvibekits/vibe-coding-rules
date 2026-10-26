@@ -1,0 +1,13 @@
+---
+globs: src/**/*.tsx
+alwaysApply: false
+---
+
+# Project rules: Lovable website (SEO)
+
+- Every page gets a unique title (under 60 characters) and meta description (under 160), written for the search that page should win.
+- One h1 per page, then h2 and h3 in order. Headings and key text are real text, never baked into images.
+- Main page content must load with the page, not after a click, a tab switch, or a slow data fetch.
+- Every image gets descriptive alt text and is compressed and sized for how it's displayed.
+- When we add a page, update the sitemap and link to it from at least one other page.
+- Ask before adding popups, carousels, or animations that hide or delay the main content.

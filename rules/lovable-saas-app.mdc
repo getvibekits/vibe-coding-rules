@@ -1,0 +1,13 @@
+---
+globs: src/**/*.tsx, src/**/*.ts
+alwaysApply: false
+---
+
+# Project rules: Lovable SaaS app
+
+- Version 1 is: sign up, [do the one core thing], pay. Ask before adding teams, admin panels, or settings pages.
+- Use Lovable's built-in authentication. Never store passwords or build our own login system.
+- Payments use Lovable's built-in payments or my Stripe account. Prices come from the server or the payment provider, never from the browser.
+- Mark a user as paid only after the payment provider confirms it, never just because they reached a success page.
+- Gate paid features in the backend (database rules or server checks), not just by hiding buttons.
+- Test the whole flow in test mode (sign up → pay → get access) before switching to live payments.

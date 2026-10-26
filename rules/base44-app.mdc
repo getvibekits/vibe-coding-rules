@@ -1,0 +1,13 @@
+---
+description: Project rules for Base44 app
+alwaysApply: true
+---
+
+# Project rules: Base44 app
+
+- Change only what I ask for in each message. Leave other pages and components alone.
+- For anything bigger than a small change, explain the plan first and wait for my OK.
+- Users can only see and change their own data unless I say otherwise.
+- Secret API keys never go in front-end code.
+- Keep the existing design: same colors, fonts, and components.
+- If a fix fails, explain the likely cause before trying again. Don't repeat the same fix.

@@ -1,0 +1,13 @@
+---
+globs: src/**/*.tsx, src/**/*.ts
+alwaysApply: false
+---
+
+# Project rules: Lovable Project Knowledge
+
+- App facts: it's for [who], they mainly [do what], and the key data is [tables or items]. Don't invent features beyond this.
+- Design rules: brand colors [colors], font [font], style [e.g. clean, rounded cards]. Reuse existing components before making new ones.
+- Change only what I name in each message. Don't restyle, rename, or reorganize anything else.
+- For anything bigger than one small change, describe the plan in a few bullets and wait for my OK.
+- If a fix doesn't work the first time, stop and explain the likely cause before trying again.
+- If my message conflicts with this Knowledge, ask me which one wins.

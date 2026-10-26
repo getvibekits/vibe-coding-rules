@@ -1,0 +1,12 @@
+This app is [one sentence: what it is and who it's for].
+Change only what I ask for in each message. Leave other pages and components alone.
+For anything bigger than a small change, explain the plan first and wait for my OK.
+Users can only see and change their own data unless I say otherwise.
+Secret API keys never go in front-end code.
+Keep the existing design: same colors, fonts, and components.
+If a fix fails, explain the likely cause before trying again. Don't repeat the same fix.
+Do one task per request. If my request is really several tasks, list them and do only the first.
+Make the smallest change that works. Don't refactor, rename, or reformat code I didn't ask about.
+If you're not sure a library, API, or setting exists in the version we use, say so and check the installed package or the docs instead of guessing.
+Never say something works unless you ran it or I confirmed it. Report errors exactly.
+When you finish a task, tell me what changed and how to check it.

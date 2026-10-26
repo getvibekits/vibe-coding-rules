@@ -1,0 +1,13 @@
+---
+globs: supabase/**/*.sql, src/**/*.ts, src/**/*.tsx
+alwaysApply: false
+---
+
+# Project rules: Lovable + Supabase app
+
+- Every table gets Row Level Security with explicit policies in the same change that creates it. Users can only read and change their own rows unless I say otherwise.
+- Before any schema change, list the tables and columns you'll add, change, or drop, and wait for my OK.
+- Never drop or rename a column or table that holds data without asking first and telling me exactly what would be lost.
+- Keys for other services go in the project's Secrets and are only used in edge functions, never in front-end code.
+- Storage buckets are private unless I ask for public. Users can only access files they uploaded.
+- Before I publish, review the app's security (RLS policies, exposed keys) and tell me what to fix first.

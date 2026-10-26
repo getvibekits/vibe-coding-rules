@@ -1,0 +1,13 @@
+---
+description: Project rules for Replit Agent app (replit.md)
+alwaysApply: true
+---
+
+# Project rules: Replit Agent app (replit.md)
+
+- Keep this "VibeKits rules" section when you update replit.md. Don't shorten, summarize, or remove it.
+- One task per request. For anything bigger than a small fix, show a short plan first.
+- Before anything that costs extra (more powerful models, paid modes, or new paid services), tell me why it's needed.
+- Secrets go in Replit's Secrets, never in code or in replit.md.
+- Ask before changing the database schema or deleting data, and tell me if a change can't be undone.
+- After each change, tell me how to check it in the preview and what I should see.

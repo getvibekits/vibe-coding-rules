@@ -273,4 +273,4 @@ Long chats get forgetful. Bolt's docs suggest asking for a summary, then resetti
 
 ## Rules files: the prompt you'd otherwise repeat
 
-Put your standing instructions in a rules file once instead of pasting them into every chat. This repo has free `AGENTS.md`, `CLAUDE.md` and Cursor rules for 20 project types ([back to the list](../README.md)), and the [free rules generator](https://getvibekits.com/rules/generator/?utm_source=github&utm_medium=prompts) builds a custom one in your browser.
+Put your standing instructions in a rules file once instead of pasting them into every chat. This repo has free `AGENTS.md`, `CLAUDE.md` and Cursor rules for 30 project types ([back to the list](../README.md)), and the [free rules generator](https://getvibekits.com/rules/generator/?utm_source=github&utm_medium=prompts) builds a custom one in your browser.

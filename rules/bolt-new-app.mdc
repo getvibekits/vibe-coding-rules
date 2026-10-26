@@ -1,0 +1,13 @@
+---
+globs: src/**/*.tsx, src/**/*.ts
+alwaysApply: false
+---
+
+# Project rules: Bolt.new app
+
+- One feature or fix per message. If I ask for several, list them and build only the first.
+- For anything bigger than a small change, outline the plan first and don't build until I say go.
+- Only edit the files the change needs. Leave locked files alone and tell me if a change needs one of them.
+- Use Bolt Database unless I say otherwise. Ask before switching databases or adding a new backend service.
+- Secret keys live in the project's secrets and server functions, never in front-end code.
+- If something breaks, explain the cause in one sentence before fixing it. Don't try the same fix twice.
