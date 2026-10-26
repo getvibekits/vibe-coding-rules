@@ -19,6 +19,7 @@ Browse the full library, with an explanation of why each rule exists, at **[getv
 | Plan mode prompts | [prompts/plan-mode-prompts.md](prompts/plan-mode-prompts.md) | How to turn on plan mode in 6 tools, plus 6 copy-paste plan prompts |
 | Custom slash commands | [commands/](commands/) | 7 copy-paste commands for Claude Code and Cursor: plan a feature, explain an error, write tests, fix lint, security check, commit message, explain a file |
 | Claude Code hooks | [hooks/](hooks/) | 7 copy-paste hooks: desktop alerts, format on edit, block `.env` edits, block risky commands, reminders after compaction, a command log, a "finish the job" check, plus a Cursor `hooks.json` |
+| Subagents | [subagents/](subagents/) | 7 copy-paste subagents for Claude Code: code reviewer, debugger, test runner, security checker, verifier, docs writer and a cheaper Explore on Haiku, plus a Cursor version and a Codex TOML agent |
 
 ## Quick start
 
