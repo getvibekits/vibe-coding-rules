@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Reminder: explain changes in plain English. Run the tests before saying a task is done. Never edit .env files.'"
+          }
+        ]
+      }
+    ]
+  }
+}
