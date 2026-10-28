@@ -4,7 +4,7 @@ Instructions for AI coding agents working on this project. Replace anything in [
 
 ## Project
 - What it is: [one sentence: what you are building and who it is for]
-- Stack: Any Lovable project. These rules go in Project settings → Knowledge
+- Stack: Any Lovable project. These rules go in Project settings → Instructions
 - Version 1 only needs to: [the ONE thing it must do]
 
 ## Project rules
